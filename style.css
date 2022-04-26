@@ -1,0 +1,434 @@
+/*@import url('css/font.css');*/
+/*===============
+   Import Libraries
+==================*/
+@import url('css/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+	background: #CCCFFF;
+}
+
+.main{
+	position: relative;
+	top: 10px;
+}
+.section1{
+	background-color: #000;
+	width: 100% auto;
+	height: 300px;
+	position: relative;
+}
+.section1 .img{
+	width: 30%;
+	height: auto;
+	position: relative;
+	top: 20px;
+	left: 20%;
+
+}
+.section1 .img img{
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+	padding: 10px;
+	background: #f1f1f1;
+}
+.section1 .contant{
+	position: relative;
+	left:-15%;
+	bottom: 50%;
+	right: 20%;
+	display: inline;
+	float: right;
+
+}
+.section1 .contant span{
+	font-size: 35px;
+	font-weight: bold;
+	color: #FFBF00;
+}
+.section1 .contant h2{
+	font-size: 35px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+}
+.section1 .contant p{
+	color: #f1f1f1;
+	position: relative;
+}
+.section1 .contant p:after{
+  content: " ";
+  position: absolute;
+  top: 30px;
+  display: block;
+  width: 90px;
+  border-bottom: 5px solid #FFF300 ;
+}
+
+@media screen and (max-width: 800px) {
+	
+	.section1 .contant{
+	  position:absolute;
+	  top: 150px;
+	  left: 15px;
+	  justify-content: center;
+	  text-align: center;
+	  width: 100%;
+	}
+	.section1 .contant p:after{
+		position: relative;
+		top: 0%;
+		left: 33%;
+	}
+}
+/*
+=========================
+  SECTION ----2
+====================*/
+.section2 {
+	/* width: 100%; */
+	width: 97.555%; 
+	height: 100% auto;
+	float: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #fff !important;
+}
+.section2 .col1{
+	width: 40%;
+	max-width: 40%;
+	position: relative;
+	left: 40px;
+	float: left;
+}
+.section2 .col1 h2{
+	position: relative;
+	font-size: 30px;
+	padding: 20px 0px 10px;
+	color: #FFBF00;
+
+}
+.section2 .col1 h2:before{
+  content: " ";
+  position: absolute;
+  left: -10px;
+  display: block;
+  width: 5px;
+  height: 35px;
+  border-left: 5px solid #FFF300;
+}
+.section2 .col1 .about-text{
+	position: relative;
+	margin-top: -10px;
+	width: 90%;
+}
+.section2 .col1 .about,
+.section2 .col1 .detail,
+.section2 .col1 .link,
+.section2 .col1 .skills,
+.section2 .col1 .language{
+	position: relative;
+}
+.section2 .col1 .about:before,
+.section2 .col1 .detail:before,
+.section2 .col1 .link:before,
+.section2 .col1 .skills:before{
+	content: " ";
+  	position:relative;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: -15px;
+  	display: block;
+ 	width: 400px;
+    border-bottom: 3px solid #EAF2F8;
+}
+.section2 .col1 .language:before{
+	content: " ";
+  	position:relative;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: -15px;
+  	display: block;
+ 	width: 400px;
+    border-top: 3px solid #EAF2F8;
+}
+.section2 .col1 .about:after,
+.section2 .col1 .detail:after,
+.section2 .col1 .link:after,
+.section2 .col1 .skills:after{
+	content: " ";
+  	position:absolute;
+ 	top: 0;
+ 	left: 90%;
+ 	bottom: -15px;
+  	display: block;
+ 	width: 5px;
+ 	height: 400px auto;
+    border-right: 3px solid #EAF2F8;
+}
+.section2 .col1 .language:after{
+	content: " ";
+  	position:absolute;
+ 	top: 0;
+ 	left: 90%;
+ 	bottom: -15px;
+  	display: block;
+ 	width: 5px;
+ 	height: 100px;
+    border-right: 3px solid #EAF2F8;
+}
+.section2 .col1 .skills .sub{
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	margin-left: -10px;
+}
+.section2 .col1 .skills li{
+	font-size: 20px;
+	line-height: 7px;
+	font-weight: 500px;
+	
+}
+.section2 .col1 ul{
+	position: relative;
+
+}
+.section2 .col1 ul li{
+	list-style: none;
+	line-height: 20px;
+	
+}
+.section2 .col1  .link-ul{
+	position: relative;
+	top: -10px;
+	left: 20px;
+}
+.section2 .col1 .link-ul li{
+	line-height: 20px;
+	padding: 0px 0px 5px;
+	
+}
+.section2 .col1 .link-ul li a{
+	/*color: #FFBF00;*/
+	color: #3498DB;
+	
+}
+.section2 .col1 .lang-ul li{
+	line-height: 20px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+@media screen and (max-width: 800px){
+	.section2 .col1 .about:before,
+	.section2 .col1 .detail:before,
+	.section2 .col1 .link:before,
+	.section2 .col1 .skills:before{
+
+	position: relative;
+	width: 100%;
+  }
+}
+
+
+
+
+/*
+======================
+ SECTION-2
+=====================*/
+.section2 .col2{
+	width: 60%;
+	max-width: 60%;
+	position:relative;
+	top: 0%;
+	left:0%;
+	float: right;
+	/*overflow-y: hidden;*/
+}
+.section2 .col2 h2{
+	position: relative;
+	top: 15px;
+	left: 20px;
+	font-size: 30px;
+	/* padding: 10px 0px 10px;
+	margin-left: 30px; */
+	color: #FFBF00;
+}
+.section2 .col2 h2:before{
+  content: " ";
+  position: absolute;
+  left: -10px;
+  display: block;
+  width: 3px;
+  height: 35px;
+  border-left: 5px solid #FFF300;
+}
+.section2 .col2 .edu,
+.section2 .col2 .work,
+.section2 .col2 .project{
+	position: relative;
+	top: 0;
+	bottom: 0;
+}
+.section2 .col2 .edu:after,
+.section2 .col2 .project:after{
+	content: " ";
+  	position:relative;
+ 	left: 10px;
+ 	bottom: 0px;
+  	display: block;
+ 	width: 450px auto;
+    border-bottom: 3px solid #EAF2F8;
+}
+
+.section2 .col2 ul{
+	position:relative;
+	top: 15px;
+	left: 40px;
+	bottom: 0%;
+}
+.section2 .col2 .edu li{
+	list-style: none;
+	line-height: 20px;
+}
+.section2 .col2 .li-head h4{
+	font-size: 15px;
+	margin-left: 10px;
+	width: 18%;
+}
+.section2 .col2 .work .li-head h4{
+	position: relative;
+	top: 30px;
+	
+}
+/*.section2 .col2 .work .li-head:nth-child(3){
+	position: relative;
+	top: 0;
+	margin-top: -20px;
+	display: block;
+}*/
+.section2 .col2 .project ul{
+	
+	position: relative;
+	
+}
+.section2 .col2 .project ul li{
+	list-style: none;
+	/*font-family: 'FontAwesome';*/
+}
+.section2 .col2 .project ul li b{
+	/*color: #FFBF00;*/
+	font-size: 15px;
+	font-weight: bold;
+	color: #3498DB;
+	padding: 0px 0px 5px;
+}
+.section2 .col2 .project ul li p{
+	width: 80%;
+}
+/*.section2 .col2 .project ul li a{
+	
+	margin: -10px 0px;
+	display: block;
+	padding: 0px 0px 10px;
+}*/
+.section2 .col2 .project ul li ul{
+	list-style: square;
+	position: relative;
+	
+	/*font-family: 'FontAwesome';*/
+}
+.section2 .col2 .project ul li ul li{
+	list-style: square;
+	padding: 5px 0px 5px;
+}
+.section2 .col2 .edu .li-cont{
+	width: 80%;
+	transform: translate(110px, -40px);
+}
+.section2 .col2 .li-cont b{
+	font-size: 15px;
+	color: #3498DB;
+	
+}
+.section2 .col2 .li-cont p{
+	font-size: 15px;
+	width: 60%;
+
+}
+
+.section2 .col2 .work .li-cont{
+	width: 100%;
+	word-wrap: break-word;
+	position: relative;
+	left: 0%;
+}
+.section2 .col2 .work .li-cont .li-head{
+	position: relative;
+	width: 100%;
+}
+.section2 .col2 .work .li-cont b{
+	position: absolute;
+	top: 10px;
+	left: 0%;
+	width: 80%;
+	font-size: 15px;
+	font-weight: bolder;
+	padding: 0px 0px 0px 15px;
+	color: #3498DB;
+}
+.section2 .col2 .work .li-cont p{
+    position: absolute;
+	top: 10px;
+	left: 80%;
+	width: 50%;
+	font-weight: 600;
+}
+.section2 .col2 .work .work-sub-ul{
+	position: relative;
+	top: 15px;
+}
+.section2 .col2 .work ul li{
+	
+	padding: 2px 20px 0px;
+	width: 100%;
+	position: relative;
+	top: 20px;
+	word-wrap: break-word;
+}
+/*}
+.section2 .col2 .work h2{
+	display: block;
+	margin-top: 50px;
+}
+*/
+
+@media screen and (max-width: 800px) {
+	
+	.section2 .col2 .edu,
+    .section2 .col2 .work,
+    .section2 .col2 .project{
+	  
+	 
+	  width: 100%;
+	}
+	.section2 .col2 h2{
+		
+		margin-left: 10px;
+	}
+	
+}

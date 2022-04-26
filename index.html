@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>MAFCloudSolutions</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container main">
+        <div class="section1">
+            <div class="img">
+                <img src="image/user1.png" class="img-responsive">
+            </div>
+            <div class="contant">
+                <h2><span>Marcos</span> Ferrero</h2>
+                <p>AWS solution Architect</p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="col1">
+                <div class="about">
+                    <h2>About me</h2>
+                    <div class="about-text">
+                        <p>Cloud Computing professional has exceptional development ability.
+                            Demonstrates initiative and has a strong desire to learn new technologies and explore new
+                            and creative ways to solve problems.</p>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <h2>Details</h2>
+                    <div class="det-cont">
+                        <ul class="det-ul">
+
+                            <li>
+
+                                <b>Address</b>
+                                <p>Miami, FL 33176</p>
+                            </li>
+
+                            <li>
+                                <b>Phone</b>
+                                <p>305 206 7141</p>
+                            </li>
+                            <li>
+
+                                <b>Email</b>
+                                <p>email marcos.ferrero001@mymdc.net</p>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="link">
+                    <h2>Links</h2>
+                    <ul class="link-ul">
+
+                        <li>
+                            <a href="#"><b>Linkedin</b></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><b>Github</b></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul class="lang-ul">
+                        <span class="sub">Operating Systems</span>
+                        <li> Linux </li>
+                        <li> Windows </li>
+
+
+                        <span class="sub">Programs</span>
+                        <li> Python </li>
+
+
+                        <span class="sub">Software</span>
+                        <li> MS Office </li>
+                        <li> Anaconda </li>
+                        <li> Mysql Workbench </li>
+
+                    </ul>
+                </div>
+
+                <div class="language">
+                    <h2>Language</h2>
+                    <ul class="lang-ul">
+                        <li> English </li>
+                        <li> Spanish </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col2">
+                <div class="edu">
+                    <div class="heading">
+                        <h2>Education</h2>
+                    </div>
+                    <ul class="edu-ul">
+                        <li>
+                            <div class="li-head">
+                                <h4>May/2022</h4>
+                            </div>
+                            <div class="li-cont">
+                                <b>Cloud Computing Enterprise</b>
+                                <p>Miami-Dade College</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="li-head">
+                                <h4>August/2022</h4>
+                            </div>
+                            <div class="li-cont">
+                                <b>AWS Cloud Master Program</b>
+                                <p>IntelliPaat E&ICT, IIT Roorkee – Online course</p>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="heading">
+                        <h2>Projects</h2>
+                    </div>
+                    <ul class="proj-ul">
+                        <li class="li-cont">
+                            <b> Cloud Resume Challenge </b>
+                            <p> Resources used such as HTML/CSS, S3 Bucket, Cloudfront, Route 53, Javascript, 
+                                DynamoDB, Python, Lambda, API Gateway, AWS SAM, CI/CO.</p>
+
+                        </li>
+
+                        <li class="li-cont">
+                            <b> AWS Capstone project using a LAMP Stack</b>
+                            <p>Used various AWS services such as VPC with Public and Private Subnets, S3 Bucket, Nat
+                                Gateway, RDS, EC2,
+                                Application Load Balancer, Auto Scaling Group, Route 53, Certificate Manager</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="work">
+                    <div class="heading">
+                        <h2>My Past Experience</h2>
+                    </div>
+
+
+                    <div class="li-cont">
+                        <div class="li-head">
+                            <b> Office Manager/Physical Therapy Assistant, Physical Therapy Now </b>
+                            <p>2015 - Present</p>
+                        </div>
+                        <ul class="work-sub-ul">
+                            <li>Oversight of routine office functions and six employees</li>
+                            <li>Active/current agency health care requirements</li>
+                            <li>Provides patient care, under the direction of a Physical Therapist, for patients
+                                <br>who have impairments, functional limitations, disabilities or changes in physical
+                                <br>function and health status resulting from injury, disease, or other causes, with
+                                <br> given to patient's age and development
+                            </li>
+                            <li>Communicating patient status and needs to patient, family, and staff compliant with
+                                infection control procedures
+                                and environmental safety protocol according to facility guidelines maintained
+                                confidentiality of patient information,
+                                facility information</li>
+                            <li>Effectively and accurately documenting patient treatment sessions thoroughly</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       <!-- <div class="section3"> -->
+            <footer>
+                <p>
+                    Copyright © Marcos Ferrero, 2022. <a href="https://dev.to/maf1978/how-i-develop-practical-skills-in-aws-with-the-cloud-resume-challenge-1o08">BLOG</a> <br />
+                    Page Load Count: <span id="loadcount">Not Available</span><br />
+            
+                </p>
+            
+            </footer>
+        <!-- </div>  -->
+    </div>
+    
+    <script>
+        function getLoadCount() {
+
+            // call an AWS gateway API, that then calls an AWS Lambda
+            // to read and then update AWS DynamoDB item showing load count
+
+            // Note call is synchronous, delays should be minimal
+            var req = new XMLHttpRequest();
+            req.open('GET',
+                "https://phvcd1zy93.execute-api.us-east-1.amazonaws.com/beta/",
+                false);
+            req.send();
+            if (req.status == 200) {
+                len = req.responseText.length;
+                // response text has opening and closing double quotes
+                console.log(req.responseText.substring(1, len - 1));
+                // set field in footer
+                document.getElementById("loadcount").textContent =
+                    req.responseText.substring(10, len - 2);
+            }
+            else {
+                // NOT OK response, so log in console
+                console.log(req.status)
+            }//end if
+        }// end getLoadCount
+
+        // read and write visit count into footer, then increment count in DB
+        window.onload = function () {
+
+            // side effects
+            // getLoadCount() updates field in footer, increments count in DB
+            getLoadCount();
+        }; //end window.onload
+
+
+
+    </script>
+
+
+    <!-- JS  -->
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="cv.js"></script>
+</body>
+
+
+</html>
